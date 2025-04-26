@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: "Press Start 1P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef1bf;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+
+.pressed {
+  box-shadow: 0 0 10px white;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+}
